@@ -1,0 +1,7 @@
+n = str(input('Digite seu nome: '))
+print (n.upper())
+print (n.lower())
+print('Quantidade de letras no seu nome: ',len(n)-n.count(' '))
+prim_n = n.split()
+quan = len(prim_n[0])
+print('Quantidade de letras no seu primeiro nome: ',quan)
